@@ -15,7 +15,7 @@ public class StepTracker {
         monthToData[monthNumber].insertSteps(dayNumber, stepsAmount);
     }
 
-    void print(int monthNumber) {
+    void printData(int monthNumber) {
         MonthData currentMonth = monthToData[monthNumber];
         int stepsSum = 0;
         int maxSteps = 0;
